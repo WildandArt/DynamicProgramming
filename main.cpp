@@ -159,7 +159,7 @@ void readFromFile(vector<reserv> &v, string filePath)
 int main(int argc, const char * argv[]) {
     
     vector <reserv> v;
-    string filePath = "/Users/art/Library/Mobile Documents/com~apple~CloudDocs/Desktop/algorithms/job_weight_scheduling/job_weight_scheduling/orders.txt";
+    string filePath = "orders.txt";
     readFromFile(v, filePath);
 //    v.push_back({7,9,2});
 //    v.push_back({5,8,11});
